@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "Metricas_de_software/1.0.0": {
+        "runtime": {
+          "Metricas_de_software.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Metricas_de_software/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,11 @@
+/home/devx/Documentos/Universidad/Metricas_de_software/bin/Debug/netcoreapp3.0/Metricas_de_software
+/home/devx/Documentos/Universidad/Metricas_de_software/bin/Debug/netcoreapp3.0/Metricas_de_software.deps.json
+/home/devx/Documentos/Universidad/Metricas_de_software/bin/Debug/netcoreapp3.0/Metricas_de_software.runtimeconfig.json
+/home/devx/Documentos/Universidad/Metricas_de_software/bin/Debug/netcoreapp3.0/Metricas_de_software.runtimeconfig.dev.json
+/home/devx/Documentos/Universidad/Metricas_de_software/bin/Debug/netcoreapp3.0/Metricas_de_software.dll
+/home/devx/Documentos/Universidad/Metricas_de_software/bin/Debug/netcoreapp3.0/Metricas_de_software.pdb
+/home/devx/Documentos/Universidad/Metricas_de_software/obj/Debug/netcoreapp3.0/Metricas_de_software.csprojAssemblyReference.cache
+/home/devx/Documentos/Universidad/Metricas_de_software/obj/Debug/netcoreapp3.0/Metricas_de_software.AssemblyInfoInputs.cache
+/home/devx/Documentos/Universidad/Metricas_de_software/obj/Debug/netcoreapp3.0/Metricas_de_software.AssemblyInfo.cs
+/home/devx/Documentos/Universidad/Metricas_de_software/obj/Debug/netcoreapp3.0/Metricas_de_software.dll
+/home/devx/Documentos/Universidad/Metricas_de_software/obj/Debug/netcoreapp3.0/Metricas_de_software.pdb
