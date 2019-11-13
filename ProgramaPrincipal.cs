@@ -7,27 +7,34 @@ namespace Metricas_de_software
         static void Main(string[] args)
         {
             SumasPositivas FuncionSumasPositivas = new SumasPositivas();
+            SumasNegativas FuncionSumasNegativas = new SumasNegativas();
 
             Console.WriteLine("Elija : \n" + "1) Entero \n" + "2) Entero(64 bits) \n" + "3) Float \n" + "4) Double");
             int input = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("¿Cuál es la cantidad de números para la operación?");
+            int limite = Convert.ToInt32(Console.ReadLine());
             // ¿Qué tipo de variable quiero enviar a la función?
             switch (input)
             {
                 // Int
                 case 1:
-                    FuncionSumasPositivas.getSumaPositivos(1,0,0f,0);
+                    //FuncionSumasPositivas.getSumaPositivos(1,0,0f,0,limite);
+                    FuncionSumasNegativas.getSumaNegativos(1,0,0f,0,limite);
                     break;
                 // Int (64 bits)    
                 case 2:
-                    FuncionSumasPositivas.getSumaPositivos(0,1,0f,0);
+                    //FuncionSumasPositivas.getSumaPositivos(0,1,0f,0,limite);
+                    FuncionSumasNegativas.getSumaNegativos(0,1,0f,0,limite);
                     break;
                 // Float    
                 case 3:
-                    FuncionSumasPositivas.getSumaPositivos(0,0,1f,0);
+                    //FuncionSumasPositivas.getSumaPositivos(0,0,1f,0,limite);
+                    FuncionSumasNegativas.getSumaNegativos(0,0,1f,0,limite);
                     break;
                 // Double    
                 case 4:
-                    FuncionSumasPositivas.getSumaPositivos(0,0,0f,1);
+                    //FuncionSumasPositivas.getSumaPositivos(0,0,0f,1,limite);
+                    FuncionSumasNegativas.getSumaNegativos(0,0,0f,1,limite);
                     break;        
                 default:
                     Console.WriteLine("¡Haz ingresado una opción incorrecta!, vuelve a intentar.");

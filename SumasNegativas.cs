@@ -2,10 +2,10 @@ using System;
 
 namespace Metricas_de_software
 {
-    class SumasPositivas
+    class SumasNegativas
     {
         // Contiene las 10 funciones para cada tipo de variable
-        public String getSumaPositivos(int Nint, Int64 Nint64, float Nfloat, double Ndouble, int limite){
+        public String getSumaNegativos(int Nint, Int64 Nint64, float Nfloat, double Ndouble, int limite){
             
             if(Nint == 1){
                 Tiempo contador = new Tiempo();
@@ -17,7 +17,7 @@ namespace Metricas_de_software
                 
                 while(numero <= limite){
                     resultado = resultado + auxiliar;
-                    auxiliar = numero * 5;
+                    auxiliar = numero * -1;
                     numero+=1;
                 }
                 contador.terminaContador(); // Finaliza
@@ -35,7 +35,7 @@ namespace Metricas_de_software
                 
                 while(numero <= limite){
                     resultado = resultado + auxiliar;
-                    auxiliar = numero * 5;
+                    auxiliar = numero * -1;
                     numero+=1;
                 }
                 contador.terminaContador(); // Finaliza
@@ -53,7 +53,7 @@ namespace Metricas_de_software
                 
                 while(numero <= limite){
                     resultado = resultado + auxiliar;
-                    auxiliar = numero * 5;
+                    auxiliar = numero * -1;
                     numero+=1;
                 }
                 contador.terminaContador(); // Finaliza
@@ -71,7 +71,7 @@ namespace Metricas_de_software
                 
                 while(numero <= limite){
                     resultado = resultado + auxiliar;
-                    auxiliar = numero * 5;
+                    auxiliar = numero * -1;
                     numero+=1;
                 }
                 contador.terminaContador(); // Finaliza
@@ -86,3 +86,4 @@ namespace Metricas_de_software
     }
 
 }    
+
