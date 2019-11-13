@@ -45,9 +45,9 @@ namespace Metricas_de_software
                 Tiempo contador = new Tiempo();
                 contador.iniciaContador(); // Comienza
                 
-                double numero = 1;
-                double resultado = 0;
-                double auxiliar = 0;
+                float numero = 1;
+                float resultado = 0;
+                float auxiliar = 0;
                 
                 while(numero <= limite){
                     resultado = resultado * auxiliar;
@@ -62,9 +62,9 @@ namespace Metricas_de_software
                 Tiempo contador = new Tiempo();
                 contador.iniciaContador(); // Comienza
                 
-                float numero = 1;
-                float resultado = 0;
-                float auxiliar = 0;
+                double numero = 1;
+                double resultado = 0;
+                double auxiliar = 0;
                 
                 while(numero <= limite){
                     resultado = resultado * auxiliar;
