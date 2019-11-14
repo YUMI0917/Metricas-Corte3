@@ -15,6 +15,8 @@ namespace Metricas_de_software
             MultiplicacionesNegativas MultiNegativos = new MultiplicacionesNegativas();
             DivisionesPositivas DivisionPositivos = new DivisionesPositivas();
             DivisionesNegativas DivisionNegativos = new DivisionesNegativas();
+            ModularesPositivas ModularPositivos = new ModularesPositivas();
+            ModularesNegativas ModularNegativos = new ModularesNegativas();
             // -------------------------------------------------------------
 
             Console.WriteLine("Elija : \n" + "1) Entero \n" + "2) Entero(64 bits) \n" + "3) Float \n" + "4) Double");
@@ -26,47 +28,55 @@ namespace Metricas_de_software
             {
                 // Int
                 case 1:
-                    //FuncionSumasPositivas.getSumaPositivos(1,0,0f,0,limite);
+                    FuncionSumasPositivas.getSumaPositivos(1,0,0f,0,limite);
                     //FuncionSumasNegativas.getSumaNegativos(1,0,0f,0,limite);
                     //FuncionRestasPositivas.getRestaPositivos(1,0,0f,0,limite);
                     //FuncionRestasNegativas.getRestaNegativos(1,0,0f,0,limite);
                     //MultiPositivos.getMultiplicacionPositivos(1,0,0f,0,limite);
                     //MultiNegativos.getMultiplicacionNegativos(1,0,0f,0,limite);
                     //DivisionPositivos.getDivisionPositivos(1,0,0f,0,limite);
-                    DivisionNegativos.getDivisionNegativos(1,0,0f,0,limite);
+                    //DivisionNegativos.getDivisionNegativos(1,0,0f,0,limite);
+                    //ModularPositivos.getModularPositivos(1,0,0f,0,limite);
+                    //ModularNegativos.getModularNegativos(1,0,0f,0,limite);
                     break;
                 // Int (64 bits)    
                 case 2:
-                    //FuncionSumasPositivas.getSumaPositivos(0,1,0f,0,limite);
+                    FuncionSumasPositivas.getSumaPositivos(0,1,0f,0,limite);
                     //FuncionSumasNegativas.getSumaNegativos(0,1,0f,0,limite);
                     //FuncionRestasPositivas.getRestaPositivos(0,1,0f,0,limite);
                     //FuncionRestasNegativas.getRestaNegativos(0,1,0f,0,limite);
                     //MultiPositivos.getMultiplicacionPositivos(0,1,0f,0,limite);
                     //MultiNegativos.getMultiplicacionNegativos(0,1,0f,0,limite);
                     //DivisionPositivos.getDivisionPositivos(0,1,0f,0,limite);
-                    DivisionNegativos.getDivisionNegativos(0,1,0f,0,limite);
+                    //DivisionNegativos.getDivisionNegativos(0,1,0f,0,limite);
+                    //ModularPositivos.getModularPositivos(0,1,0f,0,limite);
+                    //ModularNegativos.getModularNegativos(0,1,0f,0,limite);
                     break;
                 // Float    
                 case 3:
-                    //FuncionSumasPositivas.getSumaPositivos(0,0,1f,0,limite);
+                    FuncionSumasPositivas.getSumaPositivos(0,0,1f,0,limite);
                     //FuncionSumasNegativas.getSumaNegativos(0,0,1f,0,limite);
                     //FuncionRestasPositivas.getRestaPositivos(0,0,1f,0,limite);
                     //FuncionRestasNegativas.getRestaNegativos(0,0,1f,0,limite);
                     //MultiPositivos.getMultiplicacionPositivos(0,0,1f,0,limite);
                     //MultiNegativos.getMultiplicacionNegativos(0,0,1f,0,limite);
                     //DivisionPositivos.getDivisionPositivos(0,0,1f,0,limite);
-                    DivisionNegativos.getDivisionNegativos(0,0,1f,0,limite);
+                    //DivisionNegativos.getDivisionNegativos(0,0,1f,0,limite);
+                    //ModularPositivos.getModularPositivos(0,0,1f,0,limite);
+                    //ModularNegativos.getModularNegativos(0,0,1f,0,limite);
                     break;
                 // Double    
                 case 4:
-                    //FuncionSumasPositivas.getSumaPositivos(0,0,0f,1,limite);
+                    FuncionSumasPositivas.getSumaPositivos(0,0,0f,1,limite);
                     //FuncionSumasNegativas.getSumaNegativos(0,0,0f,1,limite);
                     //FuncionRestasPositivas.getRestaPositivos(0,0,0f,1,limite);
                     //FuncionRestasNegativas.getRestaNegativos(0,0,0f,1,limite);
                     //MultiPositivos.getMultiplicacionPositivos(0,0,0f,1,limite);
                     //MultiNegativos.getMultiplicacionNegativos(0,0,0f,1,limite);
                     //DivisionPositivos.getDivisionPositivos(0,0,0f,1,limite);
-                    DivisionNegativos.getDivisionNegativos(0,0,0f,1,limite);
+                    //DivisionNegativos.getDivisionNegativos(0,0,0f,1,limite);
+                    //ModularPositivos.getModularPositivos(0,0,0f,1,limite);
+                    //ModularNegativos.getModularNegativos(0,0,0f,1,limite);
                     break;        
                 default:
                     Console.WriteLine("¡Haz ingresado una opción incorrecta!, vuelve a intentar.");
